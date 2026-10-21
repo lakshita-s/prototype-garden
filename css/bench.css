@@ -1,0 +1,35 @@
+body {
+  background-image: url("/assets/bg-bench.webp");
+}
+
+.video-row {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.video-row video {
+  width: 30vw;
+  cursor: pointer;
+}
+
+video {
+  border-width: 0.9ch;
+  border-radius: 5%;
+  border-style: dashed;
+  border-color: rgb(255, 221, 0);
+}
+
+video#one {
+  margin-top: 6%;
+  align-self: flex-start;
+}
+
+video#two {
+  margin-bottom: 6%;
+  align-self: flex-end;
+}

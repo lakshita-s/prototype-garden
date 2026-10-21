@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bench</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/bench.css" />
+</head>
+<body>
+
+  <div class="fullscreen-container" id="intro">
+    <img src="assets/bench.png" alt="broken bench" />
+  </div>
+  <button class="action-btn" id="touch-btn"
+          data-hide="intro touch-btn" data-show="videos">fix broken bench ?</button>
+
+  <div class="video-row" id="videos" hidden>
+    <video src="assets/hammer-bench.mp4" id="one" playsinline preload="auto"></video>
+    <video src="assets/drill-bench.mp4" id="two" playsinline preload="auto"></video>
+  </div>
+  <button class="action-btn" id="continue-btn" hidden
+          data-hide="videos continue-btn" data-show="end next-link">done ?</button>
+
+  <div class="fullscreen-container" id="end" hidden>
+    <img src="assets/bench-fixed.png" alt="fixed bench" />
+  </div>
+  <a class="action-btn" id="next-link" href="part3.html" hidden>NEXT</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

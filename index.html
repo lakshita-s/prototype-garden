@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Part 1</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/index.css" />
+
+</head>
+<body>
+  <!-- closed gate: visible first -->
+  <div class="fullscreen-container" id="closed-gate">
+    <img src="assets/closed-gate.png" alt="closed gate" />
+  </div>
+  <button class="action-btn" id="unlock-btn"
+          data-hide="closed-gate unlock-btn"
+          data-show="open-gate enter-link">UNLOCK</button>
+
+  <!-- open gate: appears after unlocking -->
+  <div class="fullscreen-container" id="open-gate" hidden>
+    <img src="assets/open-gate.png" alt="open gate" />
+  </div>
+  <a class="action-btn" id="enter-link" href="bench.html" hidden>enter ?</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
