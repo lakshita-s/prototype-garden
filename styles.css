@@ -31,8 +31,7 @@ body {
 }
 
 .fullscreen-container.gate {
-    padding-top: 2%;
-
+  padding-top: 2%;
 }
 
 .action-btn {
@@ -59,4 +58,15 @@ input,
 select,
 textarea {
   font-family: inherit;
+}
+
+.title {
+  position: fixed;
+  z-index: 10;
+  font-size: 26px;
+  bottom: 59%;
+  left: 51%;
+  transform: translateX(-50%);
+  color: rgb(224, 186, 0);
+  font-style: oblique;
 }

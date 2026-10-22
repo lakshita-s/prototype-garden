@@ -1,5 +1,5 @@
 body {
-  background-image: url("assets/bg-gate.webp");
+  background-image: url("/assets/bg-gate.webp");
 }
 
 .map-view {
@@ -38,6 +38,12 @@ body {
   bottom: 65%;
   left: 48%;
 }
+
+.map-btn.lunch {
+  bottom: 75%;
+  left: 43%;
+}
+
 [hidden] {
   display: none !important;
 }

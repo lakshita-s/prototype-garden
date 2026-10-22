@@ -1,0 +1,18 @@
+body {
+  background-image: url("/assets/back.jpg");
+}
+
+.lunch-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.lunch-container img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+}
